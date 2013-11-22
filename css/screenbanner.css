@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+
+
+#scroller {
+	position:relative;
+	overflow:hidden;
+	height: 383px;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+#scroller .items {
+	position:absolute;
+
+	/* this time we have very large space for the height */
+	width:20000em;
+	
+}
+#scroller .items .item {
+	width: 960px;
+	height: 383px;
+	float: left;}
+
+
+#scroller .items .item span.image {
+	display: block;
+	width: 960px;
+	height: 383px;
+	margin: 20px auto 0 auto;
+	border: 0; /*Thanks to Rodboc for pointing this out...*/
+	
+}
+
+
+
+span#tweet_quote_text{
+	font-size:18px;
+	}
+	
+span#tweet_quote_author{
+	font-size:12px;
+	}
+
+#content{
+	width:960px;
+	}
+
+#top{
+	width:100%;
+	height:96px;
+	}
+	
+	.lavaLampBottomStyle {
+			font-family: 'museo_300regular';
+            position: relative;
+            height: 20px;
+            width: 960px;
+            padding: 10px;
+            margin: 10px 0;
+			margin-right: 0px;
+			margin-left:30px;
+            border: none;
+			float:right;
+			margin-top:0px;
+			margin-right:-170px;
+        }
+                .lavaLampBottomStyle li {
+					font-family: 'museo_300regular';
+                    float: left;
+                    list-style: none;
+                }
+                    .lavaLampBottomStyle li.back {
+						font-family: 'museo_300regular';
+                        border-bottom: 5px solid #bbdc00;
+						margin-top:-63px;
+                        width: 9px;
+                        height: 53px;
+                        z-index: 8000;
+                        position: absolute;
+                    }
+                    .lavaLampBottomStyle li a {
+                        font-family: 'museo_300regular';
+						font-size:14px;
+                        text-decoration: none;
+                        color: #000;
+                        outline: none;
+                        text-align: center;
+                        top: 7px;
+                        letter-spacing: 0;
+                        z-index: 10000;
+                        display: block;
+                        float: left;
+                        height: 30px;
+                        position: relative;
+                        margin: auto 10px;
+                    }   
+                        .lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
+                            border: none;
+                        }                     
+
+#top #content li.bt_fb>a{
+	margin-top: 65px;
+	float:right;
+	width: 20px;
+	height: 20px;
+	background:url(../imagens/icon_facebook.jpg) no-repeat;
+	
+}
+
+#top #content li.bt_fb:hover>a{
+	margin-top: 65px;
+	width: 20px;
+	height: 20px;
+	background:url(../imagens/icon_facebook02.jpg) no-repeat;
+}
+
+#top #content li.bt_tw>a{
+	margin-top: 65px;
+	margin-left: 10px;
+	float:right;
+	width: 20px;
+	height: 20px;
+	background: url(../imagens/icon_twitter.jpg) no-repeat;
+	
+}
+
+#top #content li.bt_tw:hover>a{
+	margin-top: 65px;
+	margin-left: 10px;
+	float:right;
+	width: 20px;
+	height: 20px;
+	background: url(../imagens/icon_twitter02.jpg) no-repeat;
+}
+
+.tel_topo{
+	float:right;
+	color:#bbdc00;
+	font-family: 'museo_700regular';
+	font-size:14px;
+	margin-top:15px;
+	margin-right:-50px;
+	}
+	
+.logo_i10as{
+	margin:20px 0 0 0;
+	float:left;
+	}
+	
+.social_icons{
+	float:right;
+	margin:70px 0 0 0;
+	}
+
+.social_icons_twitter{
+	float:right;
+	margin:70px 0 0 5px;
+	}
+
+
+#banner{
+	width:100%;
+	height:383px;
+	margin:-26px 0 0 0; 
+	background-color:#283339;
+	}
+	
+#banner_internas{
+	width:100%;
+	height:157px;
+	background-color:#000;
+	}
+	
+#chamadas{
+	width:100%;
+	height:149px;
+	background-color:#e7e8e9;
+	}
+	
+#chamadas_internas{
+	width:100%;
+	float:left;
+	margin: 0 auto;
+    background-color:#e7e8e9;
+	background-position:bottom;
+	}
+	
+#continer{
+	width: 970px;
+	margin: 0 auto;
+}
+	
+	
+.tit_chamadas{
+	font-family: 'museo_300regular';
+	font-size:38px;
+	color:#000;
+	}
+	
+.tit_subchamadas{
+	font-family: 'museo_300regular';
+	font-size:24px;
+	color:#000;
+	}	
+	
+.txt_chamadas{
+	font-family: 'museo_300regular';
+	font-size:14px;
+	margin-top:15px;
+	}
+	
+#box_home{
+	width:300px;
+	float:left;
+	margin:15px 0 0 15px;
+	font-family: 'museo_300regular';
+	}
+	
+#destaque1{
+	width:100%;
+	height:364px;
+	background-image:url(../imagens/bg_destaques.jpg);
+	background-repeat:repeat-x;
+	}
+	
+#destaque2{
+	width:100%;
+	height:364px;
+	background-image:url(../imagens/bg_destaques.jpg);
+	background-repeat:repeat-x;
+	}
+	
+#destaque3{
+	width:100%;
+	height:364px;
+	background-image:url(../imagens/bg_destaques.jpg);
+	background-repeat:repeat-x;
+	}
+	
+#destaque4{
+	width:100%;
+	height:364px;
+	background-image:url(../imagens/bg_destaques.jpg);
+	background-repeat:repeat-x;
+	}
+
+#bg_rodape{
+	width:100%;
+	height:80px;
+	background-color:#FFF;
+	margin-top:100px;
+	}
+
+
+
+#boxbanner1{ float:left; margin:-250px 0 0 20px; position:relative; background: url(../images/boxbanner1.png) no-repeat; width:531px; height:184px; z-index:1; color:#fff;}
+
+#boxbanner1 h2{float:left; margin:20px 0 0 190px; font-size:28px; font-family:'Capsuula'; }
+
+#boxbanner1 p{ float:left; margin:30px 0 0 150px; width:370px; font-size:16px;}
+
+
+
+#boxbanner2{ float:left; margin:-300px 0 0 20px; position:relative; background: url(../images/boxbanner2.png) no-repeat; width:531px; height:184px; z-index:1; color:#fff;}
+
+#boxbanner2 h2{float:left; margin:20px 0 0 190px; font-size:28px; font-family:'Capsuula'; }
+
+#boxbanner2 p{ float:left; margin:30px 0 0 150px; width:370px; font-size:16px;}
+
+
+#boxbanner3{ float:left; margin:-300px 0 0 20px; position:relative; background: url(../images/boxbanner3.png) no-repeat; width:531px; height:184px; z-index:1; color:#fff;}
+
+#boxbanner3 h2{float:left; margin:20px 0 0 190px; font-size:28px; font-family:'Capsuula'; }
+
+#boxbanner3 p{ float:left; margin:30px 0 0 150px; width:370px; font-size:16px;}

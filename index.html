@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/estilo.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/screenbanner.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/util-functions.js"></script>
+<script type="text/javascript" src="js/clear-default-text.js"></script>
+<script src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/HelveticaRounded-Black_900.font.js"></script>
+<script type="text/javascript" src="js/fontes.js"></script>
+
+<script type="text/javascript">
+
+
+   $(document).ready(function() {
+	  $('#faqs h4').each(function() {
+	    var tis = $(this), state = false, answer = tis.next('div').hide().css('height','338px' ).slideUp();
+	    tis.click(function() {
+	      state = !state;
+	      answer.slideToggle(state);
+	      tis.toggleClass('active',state);
+	    });
+	  });
+	});
+
+
+
+</script>
+
+
+
+
+
+ 
+    
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<![endif]-->
+
+	 
+
+<title>Achou Seguros</title>
+</head>
+
+<body>
+
+<header>
+	<div id="topo">
+        <div class="centraliza">
+        
+        			
+        
+        		   <div id="logo">
+                        <p>Achou seguros</p>
+                   </div>
+                   
+                     <div id="slogan">
+                        <img src="images/banner1top.png" />
+                     </div>
+                
+                    <div id="login">
+                        <form action="" method="" >
+                          <label>Usuário:</label><input type="text" id="user" name="user" />  <br/>
+                          <label>Senha:</label><input type="text" id="senha" name="senha" />
+                          <input type="submit" id="btoklogin" /> <br/>
+                          <span>Esqueceu a senha? <a href="#" title="esqueceu a senha">Clique Aqui</a></span>
+                        </form>
+                    </div>
+                  
+            
+                   <nav>
+                        <ul >
+                            <li><a href="index.php" title="Ir para página compare serviços">Compare serviços</a></li>
+                            <li class="separadormenu"></li>
+                            <li ><a href="empresa.php" title="Ir para página produtos financeiros">Produtos financeiros</a></li>
+                            <li class="separadormenu"></li>
+                            <li ><a href="cursos.php" title="Ir para página Contrate aqui">Contrate aqui</a></li>
+                             <li class="separadormenu"></li>              
+                            <li  class="menucontato"><a href="contato.php" title="Ir para página contato">Contato</a></li>
+                        </ul>
+                    </nav>
+            		
+           </div>
+                    
+                    
+          
+    </div>
+    
+    	<div id="canais">
+    		<div class="centraliza">
+				<p id="titulocanais">Nossos canais a sua disposição 24 horas</p>
+				
+				<div id="telefonescanais">
+					11 2222-2222  11 2222-2222   
+				</div>
+				
+				
+				<a href="#" title=""><img src="images/btchatonline.png" /></a>
+				
+				<a href="#" title=""><img src="images/btligamospravc.png" /></a>
+				
+				<a href="#" title=""><img src="images/btfaleconosco.png"  /></a>
+				
+				
+			</div>
+        </div>
+      
+</header>   
+
+
+<div class="passos" id="faqs" >
+  <div class="centraliza">
+     <div id="linkspassos">
+      <h4><img src="images/iconpasso1.png" /><img src="images/iconpasso2.png" /><img src="images/iconpasso3.png" /></h4>
+       <div  id="showpassos">
+    					  <a href="#" title=""><img src="images/passo1.png" /> </a>
+                <a href="#" title=""><img src="images/passo2.png" /> </a>
+                <a href="#" title=""><img src="images/passo3.png" /> </a>
+    	</div>
+     
+      
+      
+        
+     </div>
+     
+     
+  </div>      
+</div>
+
+
+
+
+    
+<section id="conteudo">
+
+      <div class="centraliza">
+	       	<ul id="modulos">
+            	<li id="destaquemodulo">
+                	<h2>Escolha o produto a ser<br/> <span>Comprado</span></h2>
+                
+                	<img src="images/imgmodulo1.png" alt="" />
+                
+                    
+                    <p>Produtos das melhores seguradoras com a nossa consultoria</p>
+                    
+                    <ul>
+                    	<li>
+                    	  Seguro Auto
+                    	</li>
+                    	<li class="separadormodulo"></li>
+                    	<li>
+                    	  Plano de Saúde
+                    	</li>
+                    	<li class="separadormodulo"></li>
+						<li>
+                    	  Consórcios
+                    	</li>
+                    	
+					
+                    </ul>
+                                      
+                     
+                </li>
+                
+                <li>
+                	<img src="images/" /><h2>Escolha o produto a ser comprado</h2>
+                
+                	<img src="images/imgmodulo1.png" alt="" />
+                	
+                    
+                    <p>Produtos das melhores seguradoras com a nossa consultoria</p>
+                    
+                     <ul>
+                    	<li>
+                    	  Auto
+                    	</li>
+                    	<li class="separadormodulo"></li>
+                    	<li>
+                    	  Residência
+                    	</li>
+                    	<li class="separadormodulo"></li>
+						<li>
+                    	  Pet
+                    	</li>
+                    	<li class="separadormodulo"></li>
+						<li>
+                    	  Equipamentos portáteis
+                    	</li>
+                    	<li class="separadormodulo"></li>
+						<li>
+                    	  Seguro viagem
+                    	</li>
+					
+                    </ul>
+                                      
+                     
+                </li>
+
+				<li class="lastli alinhaultmod">
+                	<img src="images/" /><h2>Contrate nossos serviços aqui.</h2>
+                
+                	<img src="images/imgmodulo1.png" alt="" />
+                	
+                    
+                    <p>Produtos das melhores seguradoras com a nossa consultoria</p>
+                    
+                    <ul>
+                    	<li>
+                    	  Auto
+                    	</li>
+                    	<li class="separadormodulo"></li>
+                    	<li>
+                    	  Residência
+                    	</li>
+                    	<li class="separadormodulo"></li>
+						<li>
+                    	  Pet
+                    	</li>
+                    	<li class="separadormodulo"></li>
+						<li>
+                    	  Equipamentos portáteis
+                    	</li>
+                    	<li class="separadormodulo"></li>
+						<li>
+                    	  Seguro viagem
+                    	</li>
+					
+                    </ul>
+                                      
+                     
+                </li>
+
+                
+               
+             </ul> 
+             
+			
+        
+          </div>
+</section>	
+
+<section id="casos">
+		<div class="centraliza">
+				<a href="#"><img src="images/chamadasrodape.png" /></a>
+        <a href="#"><img src="images/chamadasrodape2.png" /></a>
+        <a href="#"><img src="images/chamadasrodape3.png" class="lastli" /></a>
+		</div>
+</section> 
+
+
+<footer>
+	<div class="centraliza">
+
+            
+        
+      		<div style="clear:both;"></div>
+    
+    
+	<p >© Todos os direitos reservados -  Achou Seguros 2013</p>
+    
+   
+    
+
+
+	</div>
+</footer>
+			
+
+</body>
+</html>
